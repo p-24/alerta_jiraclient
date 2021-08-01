@@ -4,9 +4,10 @@ import datetime
 from jira import JIRA
 import logging
 
-from alerta.app import app
-from alerta.app import db
-from alerta.plugins import PluginBase
+#from alerta.app import app
+#from alerta.app import db
+#from alerta.plugins import PluginBase
+from alerta.plugins import PluginBase, app
 
 LOG = logging.getLogger('alerta.plugins.jira')
 
